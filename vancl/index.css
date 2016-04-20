@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+body{
+	font-size: 12px;
+	font-family: "宋体";
+}
+/*页头*/
+#top{
+	height: 32px;
+	border-top: 1px solid #C7C7C7;
+	border-bottom: 1px solid #FFAFB4;
+	background-color: #F7F7F7;
+}
+
+/*广告栏*/
+#top_adver{
+	height: 48px;
+	border-top: 1px solid #863136;
+	border-bottom: 1px solid #863136;
+	background-color: #B81B22;
+	margin-bottom: 24px;
+}
+#top_adver .adver{
+	height: 48px;
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url(images/guanggao.jpg); 
+}
+/*广告栏结束*/
+
+/*logo搜索栏购物车*/
+#logoSearch{
+	width: 1200px;
+	height: 62px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 8px;
+}
+	/*logo*/
+	#logoSearch .logo{
+		height: 48px;
+		width: 165px;
+		background-image: url(images/vanclsprite.png);
+		background-position: 0 -60px;
+		display: block;
+		float: left;
+		margin-left: 33px;
+	}
+	/*logo结束*/
+
+	#logoSearch .right{
+		height: 62px;
+		width: 558px;
+		float: right;
+	}
+	#logoSearch .right .top{
+		height: 29px;
+		width: 558px;
+		float: right;
+	}
+
+	/*购物车*/
+	#logoSearch .right .top .shoppingcar{
+		width: 107px;
+		height: 29px;
+		background-image: url(images/vanclsprite.png);
+		background-position: -153px 0;
+		display: block;
+		float: right;	
+	}
+	#logoSearch .right .top .shoppingcar p{
+		line-height: 29px;
+		width: 75px;
+		height: 29px;
+		display: block;
+		float: right;
+		font-size: 12px;
+	}
+	/*购物车结束*/
+
+	/*搜索栏*/
+	#logoSearch .right .top .search{
+		width: 439px;
+		height: 29px;
+		padding-right: 12px;
+		float: right;
+		position: relative;
+
+	}
+	#logoSearch .right .top .search .button{
+		width: 48px;
+		height: 29px;
+		display: block;
+		float: right;
+		background-image: url(images/vanclsprite.png);
+		background-position: -99px 0;
+		border: none;
+	}
+	#logoSearch .right .top .search .text{
+		width: 380px;
+		height: 27px;
+		display: block;
+		float: right;
+		font-size: 12px;
+		padding-left: 3px;
+	}
+	/*搜索栏结束	*/
+
+
+	/*热门搜索*/
+	#logoSearch .right .bottom{
+		width: 558px;
+		height: 33px;
+	}
+	#logoSearch .right .bottom .hotSearch{
+		width: 439px;
+		height: 33px;
+	}
+	#logoSearch .right .bottom .hotSearch p{
+		margin: 0 auto;
+		line-height: 33px;
+		text-align: center;
+		color: #6F6F6F;
+	}
+	#logoSearch .right .bottom .hotSearch p a{
+		color: #6F6F6F;
+	}
+	/*热门搜索结束*/
+
+/*logo搜索栏购物车结束*/
+
+/*页头结束*/
+
+
+/*导航条*/
+#main_nav{
+	width: 1200px;
+	height: 49px;
+	background-color: yellow;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 17px;
+}
+#main_nav .left{
+	width: 260px;
+	height: 49px;
+	background-color: #B81B22;
+	float: left;
+}
+#main_nav .left p{
+	font-size: 19px;
+	text-align: center;
+	line-height: 49px;
+	color: #fff;
+}
+#main_nav .right{
+	width: 940px;
+	height: 49px;
+	background-color: #EFEFEF;
+	float: right;
+}
+#main_nav .right ul li{
+	line-height: 49px;
+	float: left;
+	list-style: none;
+}
+#main_nav .right ul li a{
+	display: block;
+	width: 117.5px;
+	height: 49px;
+	font-size: 16px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    color: #7B7778;
+}
+#main_nav .right ul li a:hover{
+	color: #b81c22;
+	background: #e5e6e6;
+}
+/*导航条结束*/
+
+
+/*主体内容部分*/
+#content{
+	width: 1200px;
+	height: 5000px;
+	margin: 0 auto;
+	position: relative;
+}
+	/*主体左部*/
+	#content .left{
+		width: 258px;
+		height: 445px;
+		float: left;
+	}
+	#content .left a{
+		color: #646464;
+		margin-right: 10px;
+	}
+	#content .left h4{
+		position: relative;
+		top: -7px;
+		right: -38px;
+	}
+	#content .left dl{
+		width: 258px;
+		height: 61px;
+		border: 1px solid #C9C9C9;
+	}
+	#content .left dl dd{
+		width: 220px;
+		height: 26px;
+		line-height: 26px;
+		padding-left: 38px;
+	}
+	#content .left dl dt{
+		width: 220px;
+		height: 36px;
+		line-height: 26px;
+		padding-left: 38px;
+	}
+	#content .left .female{
+		margin-top: 17px;
+		width: 258px;
+		height: 43px;
+	}
+	#content .left .child{
+		margin-top: 17px;
+		width: 258px;
+		height: 43px;
+	}
+	#content .left .shoe{
+			margin-top: 17px;
+		width: 258px;
+		height: 43px;
+	}
+	/*主体左部结束*/
+
+
+	/*图片轮播*/
+	.piclunbo{
+		width: 710px;
+		height: 475px;
+		background-image: url(images/lunbo2.jpg);
+		float: left;
+		margin-left: 10px;
+	}
+
+	#content .right{
+		width: 208px;
+		height: 475px;
+		border: 1px solid #CBCBCB;
+		float: left;
+		margin-left: 10px;
+	}
+	#content .right .top{
+		width: 208px;
+		height: 235px;
+		background-image: url(images/contentrighttop.jpg);
+	}
+	#content .right .bottom{
+		width: 208px;
+		height: 235px;
+		border-top:1px solid #CBCBCB; 
+		background-image: url(images/contentrightbottom.jpg);
+	}
